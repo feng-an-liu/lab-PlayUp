@@ -584,12 +584,20 @@
 		width: 40%;
 		height: 490px;
 		position: absolute;
+		left: 0;
 	}
 	.graphic_pc .blueBar,
 	.graphic_pc .yellowBar {
 		width: 15%;
 		text-align: left;
 		animation: barMove 1s linear;
+		position: absolute;
+	}
+	.graphic_pc .blueBar {
+		left: 20%;
+	}
+	.graphic_pc .yellowBar {
+		left: 35%;
 	}
 	@keyframes barMove {
 		0% {
